@@ -1,0 +1,130 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4b160d, #a64c13, #f3a83b);
+}
+
+.gift-container {
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+  padding: 30px 22px;
+  border-radius: 22px;
+  background: #fffaf0;
+  border: 3px solid #e5b65c;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+}
+
+.diya {
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.company-logo {
+  display: block;
+  width: 125px;
+  height: 95px;
+  object-fit: contain;
+  margin: 0 auto 15px;
+}
+
+.welcome {
+  color: #9c5014;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h1 {
+  color: #a53e12;
+  font-size: 38px;
+  margin: 12px 0;
+}
+
+.gift-icon {
+  font-size: 70px;
+  margin: 15px 0;
+}
+
+h2 {
+  color: #79320e;
+  font-size: 23px;
+  margin-bottom: 12px;
+}
+
+.company {
+  font-weight: bold;
+  color: #a14d14;
+  margin-bottom: 15px;
+}
+
+.message {
+  color: #594333;
+  line-height: 1.7;
+  font-size: 15px;
+  margin-bottom: 22px;
+}
+
+.gift-box {
+  background: #fff0d1;
+  color: #93450f;
+  padding: 16px;
+  border-radius: 12px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+
+button {
+  width: 100%;
+  border: none;
+  padding: 16px 12px;
+  border-radius: 12px;
+  background: #168c45;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #106c35;
+}
+
+.note {
+  color: #755a42;
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+footer {
+  border-top: 1px solid #e8d6b7;
+  padding-top: 15px;
+  color: #80512c;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+@media(max-width: 400px) {
+  h1 {
+    font-size: 31px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .gift-container {
+    padding: 25px 16px;
+  }
+}
